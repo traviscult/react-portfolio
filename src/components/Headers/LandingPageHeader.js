@@ -55,9 +55,14 @@ function LandingPageHeader() {
         <Container>
           <div className="motto text-center">
             <h1>Travis Cultreri</h1>
+            <img
+                        alt="Travis_headshot"
+                        class="img-responsive img-travis"
+                        src={require("assets/img/faces/Travis.jpg")}
+                      />
             <h3>Full Stack Web Devloper.</h3>
             <br />
-            <Button
+            {/* <Button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               className="btn-round mr-1"
               color="neutral"
@@ -66,9 +71,9 @@ function LandingPageHeader() {
             >
               <i className="fa fa-play" />
               Watch video
-            </Button>
-            <Button className="btn-round" color="neutral" type="button" outline>
-              Download
+            </Button> */}
+            <Button className="btn-round" color="neutral" type="button" outline target="_blank" href="src/assets/resume/Travis-Coding-Resume.pdf">
+              Download Resume
             </Button>
           </div>
         </Container>
