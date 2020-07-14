@@ -77,7 +77,7 @@ function ExamplesNavbar() {
             title="Coded by Creative Tim"
             tag={Link}
           >
-            Paper Kit 2
+            Travis Cultreri
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -113,31 +113,20 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://twitter.com/CreativeTim?ref=creativetim"
+                href="https://www.linkedin.com/in/travis-cultreri-4248557a/"
                 target="_blank"
-                title="Follow us on Twitter"
+                title="Follow me on linkedin"
               >
-                <i className="fa fa-twitter" />
-                <p className="d-lg-none">Twitter</p>
+                <i className="fa fa fa-linkedin" />
+                <p className="d-lg-none">Linkedin</p>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                href="https://www.instagram.com/traviscult/"
                 target="_blank"
-                title="Like us on Facebook"
-              >
-                <i className="fa fa-facebook-square" />
-                <p className="d-lg-none">Facebook</p>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
-                target="_blank"
-                title="Follow us on Instagram"
+                title="Follow me on Instagram"
               >
                 <i className="fa fa-instagram" />
                 <p className="d-lg-none">Instagram</p>
@@ -146,7 +135,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.github.com/CreativeTimOfficial?ref=creativetim"
+                href="https://github.com/traviscult"
                 target="_blank"
                 title="Star on GitHub"
               >
