@@ -17,6 +17,7 @@
 
 */
 import React from "react";
+import Resume from "../../assets/resume/Travis-Coding-Resume.pdf"
 
 // reactstrap components
 import { Button, Container } from "reactstrap";
@@ -72,9 +73,9 @@ function LandingPageHeader() {
               <i className="fa fa-play" />
               Watch video
             </Button> */}
-            <Button className="btn-round" color="neutral" type="button" outline target="_blank" href="src/assets/resume/Travis-Coding-Resume.pdf">
-              Download Resume
-            </Button>
+            <a target="_blank" href= {Resume} ><Button className="btn-round" color="neutral" type="button" outline  >
+            Download Resume
+            </Button></a>
           </div>
         </Container>
       </div>
