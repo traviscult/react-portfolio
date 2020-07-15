@@ -73,7 +73,7 @@ function LandingPageHeader() {
               <i className="fa fa-play" />
               Watch video
             </Button> */}
-            <a target="_blank" href= {Resume} ><Button className="btn-round" color="neutral" type="button" outline  >
+            <a rel="noopener noreferrer" target="_blank" href= {Resume} ><Button className="btn-round" color="neutral" type="button" outline  >
             Download Resume
             </Button></a>
           </div>
