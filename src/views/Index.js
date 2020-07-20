@@ -276,7 +276,6 @@ function LandingPage() {
                       color="link"
                       target="_blank"
                       rel="noopener noreferrer"
-                      rel="noopener noreferrer"
                       href="https://github.com/traviscult/employee-directory"
                       // onClick={(e) => e.preventDefault()}
                     >
