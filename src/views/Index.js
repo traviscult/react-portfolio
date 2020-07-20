@@ -220,7 +220,7 @@ function LandingPage() {
                   <div className="card-avatar">
                     <a target="_blank" rel="noopener noreferrer" href="https://traviscult.github.io/Date-Night/">
                       <img
-                        alt="Date Night Application Photo"
+                        alt="Date Night Application"
                         src={require("assets/img/projects/DateNight.png")}
                       />
                     </a>
