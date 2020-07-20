@@ -226,12 +226,10 @@ function LandingPage() {
                     </a>
                   </div>
                   <CardBody>
-                    <a>
                       <div className="author">
                         <CardTitle tag="h4">Date Night</CardTitle>
                         <h6 className="card-category">Application</h6>
                       </div>
-                    </a>
                     <p className="card-description text-center">
                     Have you ever asked your date what they wanted to eat and they respond back with the dreaded "I don't know, what do you want to eat?" Or do you just want to surprise your date and show them are sophisticated and culturally diverse you are? Or do you want to add culturally diversity to your recipe book? This is the website for you!
                     </p>
