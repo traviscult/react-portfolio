@@ -72,7 +72,12 @@ function LandingPage() {
       <ExamplesNavbar />
       <LandingPageHeader />
       <div className="main">
-        <div className="section text-center">
+        <div 
+        // style={{
+        //   backgroundImage:
+        //     "url(" + require("assets/img/watercolor.jpg") + ")",
+        // }}
+        className="section text-center">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
@@ -82,23 +87,27 @@ function LandingPage() {
 							  I have a background working most aspects of the music and film industry.
 							  I have a strong passion for filmmaking, photography, and information technology.                </h5>
                 <br />
-                <Button
+                {/* <Button
                   className="btn-round"
                   color="info"
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
                 >
                   See Details
-                </Button>
+                </Button> */}
               </Col>
             </Row>
             <br />
             <br />
-            <Row>
+            {/* <Row>
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-album-2" />
+                  <img
+                        alt="Travis_headshot"
+                        class="img-responsive img-travis"
+                        src={require("assets/img/faces/Travis.jpg")}
+                      />
                   </div>
                   <div className="description">
                     <h4 className="info-title">Beautiful Gallery</h4>
@@ -163,164 +172,114 @@ function LandingPage() {
                   </div>
                 </div>
               </Col>
-            </Row>
+            </Row> */}
           </Container>
         </div>
         <div className="section section-dark text-center">
           <Container>
-            <h2 className="title">Let's talk about us</h2>
+            <h2 className="title">Selected Works</h2>
             <Row>
               <Col md="4">
-                <Card className="card-profile card-plain">
+                <Card className="card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a target= "_blank" href="https://parks-and-weather.herokuapp.com/login_new.html">
                       <img
                         alt="..."
-                        src={require("assets/img/faces/clem-onojeghuo-3.jpg")}
+                        src={require("assets/img/projects/NPS.png")}
                       />
                     </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="https://parks-and-weather.herokuapp.com/login_new.html" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Henry Ford</CardTitle>
-                        <h6 className="card-category">Product Manager</h6>
+                        <CardTitle tag="h4">National Park Service</CardTitle>
+                        <h6 className="card-category">Application</h6>
                       </div>
                     </a>
                     <p className="card-description text-center">
-                      Teamwork is so important that it is virtually impossible
-                      for you to reach the heights of your capabilities or make
-                      the money that you want without becoming very good at it.
+                    This application allows you to create an account and search through the United States and Washington D.C. Once you have made a state selection you are presented with a list of historical locations, national parks, and interesting places to visit in that given state. You can also create blog posts about the things you have seen or done. When you login you will also get weather forecast for your current location.
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      target="_blank"
+                      href="https://github.com/traviscult/Project-2"
+                      // onClick={(e) => e.preventDefault()}
                     >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
+                      <i className="fa fa-github" 
+                      />
                     </Button>
                   </CardFooter>
                 </Card>
               </Col>
               <Col md="4">
-                <Card className="card-profile card-plain">
+                <Card className="card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a target="_blank" href="https://traviscult.github.io/Date-Night/">
                       <img
-                        alt="..."
-                        src={require("assets/img/faces/joe-gardner-2.jpg")}
+                        alt="Date Night Application Photo"
+                        src={require("assets/img/projects/DateNight.png")}
                       />
                     </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a>
                       <div className="author">
-                        <CardTitle tag="h4">Sophie West</CardTitle>
-                        <h6 className="card-category">Designer</h6>
+                        <CardTitle tag="h4">Date Night</CardTitle>
+                        <h6 className="card-category">Application</h6>
                       </div>
                     </a>
                     <p className="card-description text-center">
-                      A group becomes a team when each member is sure enough of
-                      himself and his contribution to praise the skill of the
-                      others. No one can whistle a symphony. It takes an
-                      orchestra to play it.
+                    Have you ever asked your date what they wanted to eat and they respond back with the dreaded "I don't know, what do you want to eat?" Or do you just want to surprise your date and show them are sophisticated and culturally diverse you are? Or do you want to add culturally diversity to your recipe book? This is the website for you!
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
-                    <Button
+                  <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      target="_blank"
+                      href="https://github.com/traviscult/Date-Night"
+                      // onClick={(e) => e.preventDefault()}
                     >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
+                      <i className="fa fa-github" 
+                      />
                     </Button>
                   </CardFooter>
                 </Card>
               </Col>
               <Col md="4">
-                <Card className="card-profile card-plain">
+                <Card className="card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a target="_blank" href="https://5f0b929efa9b8814d9b74472--react-employee-directory-app.netlify.app/">
                       <img
                         alt="..."
-                        src={require("assets/img/faces/erik-lucatero-2.jpg")}
+                        src={require("assets/img/projects/employeeDirectory.png")}
                       />
                     </a>
                   </div>
                   <CardBody>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Robert Orben</CardTitle>
-                        <h6 className="card-category">Developer</h6>
+                        <CardTitle tag="h4">Employee Directory</CardTitle>
+                        <h6 className="card-category">Application</h6>
                       </div>
                     </a>
                     <p className="card-description text-center">
-                      The strength of the team is each individual member. The
-                      strength of each member is the team. If you can laugh
-                      together, you can work together, silence isn’t golden,
-                      it’s deadly.
+                    A react application that allows you to access your companies employees information.
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
-                    <Button
+                  <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      target="_blank"
+                      href="https://github.com/traviscult/employee-directory"
+                      // onClick={(e) => e.preventDefault()}
                     >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
+                      <i className="fa fa-github" 
+                      />
                     </Button>
                   </CardFooter>
                 </Card>
