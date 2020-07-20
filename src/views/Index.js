@@ -182,7 +182,7 @@ function LandingPage() {
               <Col md="4">
                 <Card className="card-plain">
                   <div className="card-avatar">
-                    <a target= "_blank" href="https://parks-and-weather.herokuapp.com/login_new.html">
+                    <a target= "_blank"  rel="noopener noreferrer" href="https://parks-and-weather.herokuapp.com/login_new.html">
                       <img
                         alt="..."
                         src={require("assets/img/projects/NPS.png")}
@@ -205,6 +205,7 @@ function LandingPage() {
                       className="btn-just-icon btn-neutral"
                       color="link"
                       target="_blank"
+                      rel="noopener noreferrer"
                       href="https://github.com/traviscult/Project-2"
                       // onClick={(e) => e.preventDefault()}
                     >
@@ -217,7 +218,7 @@ function LandingPage() {
               <Col md="4">
                 <Card className="card-plain">
                   <div className="card-avatar">
-                    <a target="_blank" href="https://traviscult.github.io/Date-Night/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://traviscult.github.io/Date-Night/">
                       <img
                         alt="Date Night Application Photo"
                         src={require("assets/img/projects/DateNight.png")}
@@ -240,6 +241,7 @@ function LandingPage() {
                       className="btn-just-icon btn-neutral"
                       color="link"
                       target="_blank"
+                      rel="noopener noreferrer"
                       href="https://github.com/traviscult/Date-Night"
                       // onClick={(e) => e.preventDefault()}
                     >
@@ -252,7 +254,7 @@ function LandingPage() {
               <Col md="4">
                 <Card className="card-plain">
                   <div className="card-avatar">
-                    <a target="_blank" href="https://5f0b929efa9b8814d9b74472--react-employee-directory-app.netlify.app/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://5f0b929efa9b8814d9b74472--react-employee-directory-app.netlify.app/">
                       <img
                         alt="..."
                         src={require("assets/img/projects/employeeDirectory.png")}
@@ -275,6 +277,8 @@ function LandingPage() {
                       className="btn-just-icon btn-neutral"
                       color="link"
                       target="_blank"
+                      rel="noopener noreferrer"
+                      rel="noopener noreferrer"
                       href="https://github.com/traviscult/employee-directory"
                       // onClick={(e) => e.preventDefault()}
                     >
