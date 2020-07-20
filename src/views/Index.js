@@ -260,14 +260,12 @@ function LandingPage() {
                     </a>
                   </div>
                   <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
                         <CardTitle tag="h4">Employee Directory</CardTitle>
                         <h6 className="card-category">Application</h6>
                       </div>
-                    </a>
                     <p className="card-description text-center">
-                    A react application that allows you to access your companies employees information.
+                    A react application that allows you to access your companies employees information. An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
