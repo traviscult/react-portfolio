@@ -113,7 +113,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.linkedin.com/in/travis-cultreri-4248557a/"
+                href="https://www.linkedin.com/in/travis-cultreri"
                 target="_blank"
                 title="Follow me on linkedin"
               >
