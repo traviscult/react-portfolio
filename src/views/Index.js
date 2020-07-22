@@ -284,6 +284,109 @@ function LandingPage() {
                 </Card>
               </Col>
             </Row>
+            <Row>
+              <Col md="4">
+                <Card className="card-plain">
+                  <div className="card-avatar">
+                    <a target= "_blank"  rel="noopener noreferrer" href="https://workout-tracker-nosql-hw.herokuapp.com/">
+                      <img
+                        alt="Fitness Tracker application"
+                        src={require("assets/img/projects/fitnessTracker.png")}
+                      />
+                    </a>
+                  </div>
+                  <CardBody>
+                    <a href="https://workout-tracker-nosql-hw.herokuapp.com/" onClick={(e) => e.preventDefault()}>
+                      <div className="author">
+                        <CardTitle tag="h4">Fitness Tracker</CardTitle>
+                        <h6 className="card-category">Application</h6>
+                      </div>
+                    </a>
+                    <p className="card-description text-center">
+                    A workout tracking application utilizing a Mongo database with a Mongoose schema and handling the routes with Express.                    </p>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                    <Button
+                      className="btn-just-icon btn-neutral"
+                      color="link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://github.com/traviscult/Workout-Tracker"
+                      // onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-github" 
+                      />
+                    </Button>
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-plain">
+                  <div className="card-avatar">
+                    <a target="_blank" rel="noopener noreferrer" href="https://whispering-earth-86802.herokuapp.com">
+                      <img
+                        alt="Date Night Application"
+                        src={require("assets/img/projects/burger.png")}
+                      />
+                    </a>
+                  </div>
+                  <CardBody>
+                      <div className="author">
+                        <CardTitle tag="h4">Burger Tracker</CardTitle>
+                        <h6 className="card-category">Application</h6>
+                      </div>
+                    <p className="card-description text-center">
+                    A burger logger utilizing MySQL, Node, Express, Handlebars and a homemade ORM. The final application was deployed through Heroku.                    </p>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                  <Button
+                      className="btn-just-icon btn-neutral"
+                      color="link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://github.com/traviscult/Node-Express-Handlebars"
+                      // onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-github" 
+                      />
+                    </Button>
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-plain">
+                  <div className="card-avatar">
+                    <a target="_blank" rel="noopener noreferrer" href="https://notetaker050120.herokuapp.com/">
+                      <img
+                        alt="Note taker application"
+                        src={require("assets/img/projects/notes.png")}
+                      />
+                    </a>
+                  </div>
+                  <CardBody>
+                      <div className="author">
+                        <CardTitle tag="h4">Notes</CardTitle>
+                        <h6 className="card-category">Application</h6>
+                      </div>
+                    <p className="card-description text-center">
+                    An application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.                    </p>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                  <Button
+                      className="btn-just-icon btn-neutral"
+                      color="link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://github.com/traviscult/Notes"
+                      // onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-github" 
+                      />
+                    </Button>
+                  </CardFooter>
+                </Card>
+              </Col>
+            </Row>
           </Container>
         </div>
         <div className="section landing-section">
