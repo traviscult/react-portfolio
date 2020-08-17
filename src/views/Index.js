@@ -252,7 +252,7 @@ function LandingPage() {
               <Col md="4">
                 <Card className="card-plain">
                   <div className="card-avatar">
-                    <a target="_blank" rel="noopener noreferrer" href="https://5f0b929efa9b8814d9b74472--react-employee-directory-app.netlify.app/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://5f0b929efa9b8814d9b74472--react-img-directory-app.netlify.app/">
                       <img
                         alt="..."
                         src={require("assets/img/projects/employeeDirectory.png")}
@@ -393,45 +393,22 @@ function LandingPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="text-center">Keep in touch?</h2>
-                <Form className="contact-form">
+                <h2 className="text-center">Get in touch?</h2>
+                <Form className="contact-form" >
                   <Row>
                     <Col md="6">
                       <label>Name</label>
-                      <InputGroup>
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="nc-icon nc-single-02" />
-                          </InputGroupText>
-                        </InputGroupAddon>
-                        <Input placeholder="Name" type="text" />
-                      </InputGroup>
+                      <p>Travis Cultreri</p>
                     </Col>
+                    </Row>
+                    <Row>
                     <Col md="6">
                       <label>Email</label>
-                      <InputGroup>
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="nc-icon nc-email-85" />
-                          </InputGroupText>
-                        </InputGroupAddon>
-                        <Input placeholder="Email" type="text" />
-                      </InputGroup>
+                      <p>traviscult@gmail.com</p>
                     </Col>
                   </Row>
-                  <label>Message</label>
-                  <Input
-                    placeholder="Tell us your thoughts and feelings..."
-                    type="textarea"
-                    rows="4"
-                  />
-                  <Row>
-                    <Col className="ml-auto mr-auto" md="4">
-                      <Button className="btn-fill" color="danger" size="lg">
-                        Send Message
-                      </Button>
-                    </Col>
-                  </Row>
+                  <label>Phone Number</label>
+                  <p>310.339.7695</p>
                 </Form>
               </Col>
             </Row>

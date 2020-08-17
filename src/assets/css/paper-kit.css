@@ -2054,7 +2054,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   text-transform: uppercase; }
 
 .description {
-  color: #9A9A9A; }
+  color: #000000; }
 
 blockquote small {
   font-style: normal; }
@@ -3393,6 +3393,7 @@ License - nucleoapp.com/license/
 
 .alert-danger {
   background-color: #f7765f; }
+  
 
 .img-rounded {
   border-radius: 12px;
