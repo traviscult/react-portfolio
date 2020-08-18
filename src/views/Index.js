@@ -86,103 +86,21 @@ function LandingPage() {
                   filmmaking, photography, and information technology.{" "}
                 </h5>
                 <br />
-                {/* <Button
-                  className="btn-round"
-                  color="info"
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  See Details
-                </Button> */}
               </Col>
             </Row>
-            <br />
-            <br />
+            </Container>
+            </div>
+            <div className="section text-center">
             <Row>
-              <Col className="ml-auto mr-auto" md="8"></Col>
+              <Col className="ml-auto mr-auto" md="8">
               <h2 className="title">Skills</h2>
               <h5 className="description">
-                My name is Travis. I am California born but was raised on Long
-                Island NY. I have a background working most aspects of the music
-                and film industry. I have a strong passion for filmmaking,
-                photography, and information technology.{" "}
+              Node.Js, Express, JavaScript, jQuery, React.js, React, JSX, GIT, GitHub, MongoDB, MySQL, Mongoose,
+Handlebars, HTML5, CSS3, Bootstrap, Materialize, APIs, Heroku, Terminal, AJAX, Restful API, ES6,
+React Hooks, JSON, Sequelize{" "}
               </h5>
+              </Col>
             </Row>
-            {/* <Row>
-              <Col md="3">
-                <div className="info">
-                  <div className="icon icon-info">
-                  <img
-                        alt="Travis_headshot"
-                        class="img-responsive img-travis"
-                        src={require("assets/img/faces/Travis.jpg")}
-                      />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">Beautiful Gallery</h4>
-                    <p className="description">
-                      Spend your time generating new ideas. You don't have to
-                      think of implementing.
-                    </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      See more
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-              <Col md="3">
-                <div className="info">
-                  <div className="icon icon-info">
-                    <i className="nc-icon nc-bulb-63" />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">New Ideas</h4>
-                    <p>
-                      Larger, yet dramatically thinner. More powerful, but
-                      remarkably power efficient.
-                    </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      See more
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-              <Col md="3">
-                <div className="info">
-                  <div className="icon icon-info">
-                    <i className="nc-icon nc-chart-bar-32" />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">Statistics</h4>
-                    <p>
-                      Choose from a veriety of many colors resembling sugar
-                      paper pastels.
-                    </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      See more
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-              <Col md="3">
-                <div className="info">
-                  <div className="icon icon-info">
-                    <i className="nc-icon nc-sun-fog-29" />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">Delightful design</h4>
-                    <p>
-                      Find unique and handmade delightful designs related items
-                      directly from our sellers.
-                    </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      See more
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-            </Row> */}
-          </Container>
         </div>
         <div className="section section-dark text-center">
           <Container>
