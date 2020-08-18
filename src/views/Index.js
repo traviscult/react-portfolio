@@ -197,7 +197,7 @@ function LandingPage() {
                       href="https://parks-and-weather.herokuapp.com/login_new.html"
                     >
                       <img
-                        alt="..."
+                        alt="National Parks Service App Home Page"
                         src={require("assets/img/projects/NPS.png")}
                       />
                     </a>
@@ -286,7 +286,7 @@ function LandingPage() {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://5f0b929efa9b8814d9b74472--react-img-directory-app.netlify.app/"
+                      href="https://react-employee-directory-app.netlify.app/"
                     >
                       <img
                         alt="..."
