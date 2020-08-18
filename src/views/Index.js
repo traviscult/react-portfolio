@@ -454,7 +454,7 @@ function LandingPage() {
             <Row>
               <Col className="ml-auto mr-auto" md="8">
                 <h2 className="text-center">Get in touch</h2>
-                <Form className="text-center" className="contact-form">
+                <Form className="contact-form">
                   <Row>
                     <Col className="text-center">
                       <h5>Name</h5>
