@@ -17,7 +17,7 @@
 
 */
 import React from "react";
-import Resume from "../../assets/resume/Travis-Coding-Resume.pdf"
+import Resume from "../../assets/resume/Travis-Cultreri-Resume.pdf"
 
 // reactstrap components
 import { Button, Container } from "reactstrap";

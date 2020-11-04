@@ -85,22 +85,22 @@ function LandingPage() {
                   music and film industry. I have a strong passion for
                   filmmaking, photography, and information technology.{" "}
                 </h5>
-                <br />
               </Col>
             </Row>
-            </Container>
-            </div>
-            <div className="section text-center">
-            <Row>
-              <Col className="ml-auto mr-auto" md="8">
+          </Container>
+        </div>
+        <div className="text-center">
+          <Row>
+            <Col className="ml-auto mr-auto" md="8">
               <h2 className="title">Skills</h2>
               <h5 className="description">
-              Node.Js, Express, JavaScript, jQuery, React.js, React, JSX, GIT, GitHub, MongoDB, MySQL, Mongoose,
-Handlebars, HTML5, CSS3, Bootstrap, Materialize, APIs, Heroku, Terminal, AJAX, Restful API, ES6,
-React Hooks, JSON, Sequelize{" "}
+                Node.Js, Express, JavaScript, jQuery, React.js, React, JSX, GIT,
+                GitHub, MongoDB, MySQL, Mongoose, Handlebars, HTML5, CSS3,
+                Bootstrap, Materialize, APIs, Heroku, Terminal, AJAX, Restful
+                API, ES6, React Hooks, JSON, Sequelize{" "}
               </h5>
-              </Col>
-            </Row>
+            </Col>
+          </Row>
         </div>
         <div className="section section-dark text-center">
           <Container>
